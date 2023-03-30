@@ -13,5 +13,6 @@ url = "https://www.kayak.com/flights/NYC-{to_location}/2023-04-20/2023-04-30?sor
 driver.get(url)
 
 sleep(10)
+
 input("Press enter to close the browser...")
 driver.quit()
