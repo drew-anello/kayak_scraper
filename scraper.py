@@ -9,3 +9,9 @@ driver = webdriver.Chrome()
 to_location = 'MIA'
 url = "https://www.kayak.com/flights/NYC-{to_location}/2023-04-20/2023-04-30?sort=bestflight_a".format(
     to_location=to_location)
+
+driver.get(url)
+
+sleep(10)
+input("Press enter to close the browser...")
+driver.quit()
